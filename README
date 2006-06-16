@@ -1,0 +1,401 @@
+gourmet
+-------------------------------------------
+Gourmet Recipe Manager is a manager, editor, and organizer for
+recipes. It currently has primitive support for mealmaster
+importing. It can export and import an XML format of its own (the DTD
+is included here for your interest) which I developed for an earlier
+recipe program in emacs-lisp. It also allows you to export individual
+recipes as Mealmaster, HTML or Plain Text.
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  gnome-python2-2.10.0-1
+  metakit-2.3.9.4-2
+  PIL-1.1.5-2
+  pygtk2-2.6.3-1
+  pyorbit-2.0.1-2
+  pyrtf-0.45-1
+  python-2.4.1-1
+
+Canonical homepage:
+  http://grecipe-manager.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/grecipe-manager/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gourmet-0.8.5.13-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gourmet-0.8.5.13-1.sh all
+
+This will create:
+  /usr/src/gourmet-0.8.5.13-1-src.tar.bz2
+  /usr/src/gourmet-0.8.5.13-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gourmet
+  /usr/lib/python2.4/site-packages/gourmet/backends/DatabaseChooser.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/DatabaseChooser.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/DatabaseChooser.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/PythonicSQL.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/PythonicSQL.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/PythonicSQL.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_mysql.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_mysql.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_mysql.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_sqlite.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_sqlite.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/pythonic_sqlite.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/rdatabase.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/rdatabase.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/rdatabase.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmetakit.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmetakit.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmetakit.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmysql.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmysql.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/rmysql.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/rsqlite.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/rsqlite.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/rsqlite.pyo
+  /usr/lib/python2.4/site-packages/gourmet/backends/__init__.py
+  /usr/lib/python2.4/site-packages/gourmet/backends/__init__.pyc
+  /usr/lib/python2.4/site-packages/gourmet/backends/__init__.pyo
+  /usr/lib/python2.4/site-packages/gourmet/cb_extras.py
+  /usr/lib/python2.4/site-packages/gourmet/cb_extras.pyc
+  /usr/lib/python2.4/site-packages/gourmet/cb_extras.pyo
+  /usr/lib/python2.4/site-packages/gourmet/check_encodings.py
+  /usr/lib/python2.4/site-packages/gourmet/check_encodings.pyc
+  /usr/lib/python2.4/site-packages/gourmet/check_encodings.pyo
+  /usr/lib/python2.4/site-packages/gourmet/convert.py
+  /usr/lib/python2.4/site-packages/gourmet/convert.pyc
+  /usr/lib/python2.4/site-packages/gourmet/convert.pyo
+  /usr/lib/python2.4/site-packages/gourmet/convertGui.py
+  /usr/lib/python2.4/site-packages/gourmet/convertGui.pyc
+  /usr/lib/python2.4/site-packages/gourmet/convertGui.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en_GB.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en_GB.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_en_GB.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_es.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_es.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_es.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_fr.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_fr.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_fr.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_nl.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_nl.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_nl.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_pt.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_pt.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_pt.pyo
+  /usr/lib/python2.4/site-packages/gourmet/defaults_sk.py
+  /usr/lib/python2.4/site-packages/gourmet/defaults_sk.pyc
+  /usr/lib/python2.4/site-packages/gourmet/defaults_sk.pyo
+  /usr/lib/python2.4/site-packages/gourmet/dialog_extras.py
+  /usr/lib/python2.4/site-packages/gourmet/dialog_extras.pyc
+  /usr/lib/python2.4/site-packages/gourmet/dialog_extras.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter_obsolete.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter_obsolete.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gnomeprinter_obsolete.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml2_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml2_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml2_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/gxml_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/html_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/html_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/html_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/lprprinter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/lprprinter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/lprprinter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/MarkupString.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/MarkupString.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/MarkupString.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/mealmaster_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/mealmaster_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/mealmaster_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/pdf_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/pdf_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/pdf_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/printer.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/printer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/printer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/recipe_emailer.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/recipe_emailer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/recipe_emailer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/rtf_exporter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/rtf_exporter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/rtf_exporter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/winprinter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/winprinter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/winprinter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/wxprinter.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/wxprinter.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/wxprinter.pyo
+  /usr/lib/python2.4/site-packages/gourmet/exporters/__init__.py
+  /usr/lib/python2.4/site-packages/gourmet/exporters/__init__.pyc
+  /usr/lib/python2.4/site-packages/gourmet/exporters/__init__.pyo
+  /usr/lib/python2.4/site-packages/gourmet/FauxActionGroups.py
+  /usr/lib/python2.4/site-packages/gourmet/FauxActionGroups.pyc
+  /usr/lib/python2.4/site-packages/gourmet/FauxActionGroups.pyo
+  /usr/lib/python2.4/site-packages/gourmet/FileChooserSaveAs.py
+  /usr/lib/python2.4/site-packages/gourmet/FileChooserSaveAs.pyc
+  /usr/lib/python2.4/site-packages/gourmet/FileChooserSaveAs.pyo
+  /usr/lib/python2.4/site-packages/gourmet/gdebug.py
+  /usr/lib/python2.4/site-packages/gourmet/gdebug.pyc
+  /usr/lib/python2.4/site-packages/gourmet/gdebug.pyo
+  /usr/lib/python2.4/site-packages/gourmet/gettext_setup.py
+  /usr/lib/python2.4/site-packages/gourmet/gettext_setup.pyc
+  /usr/lib/python2.4/site-packages/gourmet/gettext_setup.pyo
+  /usr/lib/python2.4/site-packages/gourmet/gglobals.py
+  /usr/lib/python2.4/site-packages/gourmet/gglobals.pyc
+  /usr/lib/python2.4/site-packages/gourmet/gglobals.pyo
+  /usr/lib/python2.4/site-packages/gourmet/GourmetFauxThreads.py
+  /usr/lib/python2.4/site-packages/gourmet/GourmetFauxThreads.pyc
+  /usr/lib/python2.4/site-packages/gourmet/GourmetFauxThreads.pyo
+  /usr/lib/python2.4/site-packages/gourmet/GourmetRecipeManager.py
+  /usr/lib/python2.4/site-packages/gourmet/GourmetRecipeManager.pyc
+  /usr/lib/python2.4/site-packages/gourmet/GourmetRecipeManager.pyo
+  /usr/lib/python2.4/site-packages/gourmet/GourmetThreads.py
+  /usr/lib/python2.4/site-packages/gourmet/GourmetThreads.pyc
+  /usr/lib/python2.4/site-packages/gourmet/GourmetThreads.pyo
+  /usr/lib/python2.4/site-packages/gourmet/ImageExtras.py
+  /usr/lib/python2.4/site-packages/gourmet/ImageExtras.pyc
+  /usr/lib/python2.4/site-packages/gourmet/ImageExtras.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/BeautifulSoup.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/BeautifulSoup.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/BeautifulSoup.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/generic_recipe_parser.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/generic_recipe_parser.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/generic_recipe_parser.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml2_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml2_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml2_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/gxml_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/allrecipes.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/allrecipes.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/allrecipes.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/eating_well.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/eating_well.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/eating_well.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/epicurious.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/epicurious.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/epicurious.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/foodnetwork.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/foodnetwork.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/foodnetwork.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/html_helpers.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/html_helpers.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/html_helpers.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/recipezaar.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/recipezaar.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/recipezaar.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/__init__.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/__init__.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/html_plugins/__init__.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/imageBrowser.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/imageBrowser.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/imageBrowser.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/interactive_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/interactive_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/interactive_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/krecipe_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/krecipe_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/krecipe_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_plaintext_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_plaintext_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/mastercook_plaintext_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/mealmaster_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/mealmaster_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/mealmaster_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/plaintext_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/plaintext_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/plaintext_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/rezkonv_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/rezkonv_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/rezkonv_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/xml_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/xml_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/xml_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/zip_importer.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/zip_importer.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/zip_importer.pyo
+  /usr/lib/python2.4/site-packages/gourmet/importers/__init__.py
+  /usr/lib/python2.4/site-packages/gourmet/importers/__init__.pyc
+  /usr/lib/python2.4/site-packages/gourmet/importers/__init__.pyo
+  /usr/lib/python2.4/site-packages/gourmet/keyEditor.py
+  /usr/lib/python2.4/site-packages/gourmet/keyEditor.pyc
+  /usr/lib/python2.4/site-packages/gourmet/keyEditor.pyo
+  /usr/lib/python2.4/site-packages/gourmet/keymanager.py
+  /usr/lib/python2.4/site-packages/gourmet/keymanager.pyc
+  /usr/lib/python2.4/site-packages/gourmet/keymanager.pyo
+  /usr/lib/python2.4/site-packages/gourmet/mnemonic_manager.py
+  /usr/lib/python2.4/site-packages/gourmet/mnemonic_manager.pyc
+  /usr/lib/python2.4/site-packages/gourmet/mnemonic_manager.pyo
+  /usr/lib/python2.4/site-packages/gourmet/OptionParser.py
+  /usr/lib/python2.4/site-packages/gourmet/OptionParser.pyc
+  /usr/lib/python2.4/site-packages/gourmet/OptionParser.pyo
+  /usr/lib/python2.4/site-packages/gourmet/optionTable.py
+  /usr/lib/python2.4/site-packages/gourmet/optionTable.pyc
+  /usr/lib/python2.4/site-packages/gourmet/optionTable.pyo
+  /usr/lib/python2.4/site-packages/gourmet/PngImagePluginUpToDate.py
+  /usr/lib/python2.4/site-packages/gourmet/PngImagePluginUpToDate.pyc
+  /usr/lib/python2.4/site-packages/gourmet/PngImagePluginUpToDate.pyo
+  /usr/lib/python2.4/site-packages/gourmet/prefs.py
+  /usr/lib/python2.4/site-packages/gourmet/prefs.pyc
+  /usr/lib/python2.4/site-packages/gourmet/prefs.pyo
+  /usr/lib/python2.4/site-packages/gourmet/prefsGui.py
+  /usr/lib/python2.4/site-packages/gourmet/prefsGui.pyc
+  /usr/lib/python2.4/site-packages/gourmet/prefsGui.pyo
+  /usr/lib/python2.4/site-packages/gourmet/reccard.py
+  /usr/lib/python2.4/site-packages/gourmet/reccard.pyc
+  /usr/lib/python2.4/site-packages/gourmet/reccard.pyo
+  /usr/lib/python2.4/site-packages/gourmet/recindex.py
+  /usr/lib/python2.4/site-packages/gourmet/recindex.pyc
+  /usr/lib/python2.4/site-packages/gourmet/recindex.pyo
+  /usr/lib/python2.4/site-packages/gourmet/recipeManager.py
+  /usr/lib/python2.4/site-packages/gourmet/recipeManager.pyc
+  /usr/lib/python2.4/site-packages/gourmet/recipeManager.pyo
+  /usr/lib/python2.4/site-packages/gourmet/shopEditor.py
+  /usr/lib/python2.4/site-packages/gourmet/shopEditor.pyc
+  /usr/lib/python2.4/site-packages/gourmet/shopEditor.pyo
+  /usr/lib/python2.4/site-packages/gourmet/shopgui.py
+  /usr/lib/python2.4/site-packages/gourmet/shopgui.pyc
+  /usr/lib/python2.4/site-packages/gourmet/shopgui.pyo
+  /usr/lib/python2.4/site-packages/gourmet/shopping.py
+  /usr/lib/python2.4/site-packages/gourmet/shopping.pyc
+  /usr/lib/python2.4/site-packages/gourmet/shopping.pyo
+  /usr/lib/python2.4/site-packages/gourmet/TextBufferMarkup.py
+  /usr/lib/python2.4/site-packages/gourmet/TextBufferMarkup.pyc
+  /usr/lib/python2.4/site-packages/gourmet/TextBufferMarkup.pyo
+  /usr/lib/python2.4/site-packages/gourmet/thumbnail.py
+  /usr/lib/python2.4/site-packages/gourmet/thumbnail.pyc
+  /usr/lib/python2.4/site-packages/gourmet/thumbnail.pyo
+  /usr/lib/python2.4/site-packages/gourmet/ThumbnailGenerator.py
+  /usr/lib/python2.4/site-packages/gourmet/ThumbnailGenerator.pyc
+  /usr/lib/python2.4/site-packages/gourmet/ThumbnailGenerator.pyo
+  /usr/lib/python2.4/site-packages/gourmet/timeEntry.py
+  /usr/lib/python2.4/site-packages/gourmet/timeEntry.pyc
+  /usr/lib/python2.4/site-packages/gourmet/timeEntry.pyo
+  /usr/lib/python2.4/site-packages/gourmet/treeview_extras.py
+  /usr/lib/python2.4/site-packages/gourmet/treeview_extras.pyc
+  /usr/lib/python2.4/site-packages/gourmet/treeview_extras.pyo
+  /usr/lib/python2.4/site-packages/gourmet/Undo.py
+  /usr/lib/python2.4/site-packages/gourmet/Undo.pyc
+  /usr/lib/python2.4/site-packages/gourmet/Undo.pyo
+  /usr/lib/python2.4/site-packages/gourmet/version.py
+  /usr/lib/python2.4/site-packages/gourmet/version.pyc
+  /usr/lib/python2.4/site-packages/gourmet/version.pyo
+  /usr/lib/python2.4/site-packages/gourmet/WidgetSaver.py
+  /usr/lib/python2.4/site-packages/gourmet/WidgetSaver.pyc
+  /usr/lib/python2.4/site-packages/gourmet/WidgetSaver.pyo
+  /usr/lib/python2.4/site-packages/gourmet/__init__.py
+  /usr/lib/python2.4/site-packages/gourmet/__init__.pyc
+  /usr/lib/python2.4/site-packages/gourmet/__init__.pyo
+  /usr/share/applications/gourmet.desktop
+  /usr/share/doc/Cygwin/gourmet-0.8.5.13.README
+  /usr/share/doc/gourmet-0.8.5.13/Changes
+  /usr/share/doc/gourmet-0.8.5.13/FAQ
+  /usr/share/doc/gourmet-0.8.5.13/PKG-INFO
+  /usr/share/doc/gourmet-0.8.5.13/README
+  /usr/share/doc/gourmet-0.8.5.13/TODO
+  /usr/share/gourmet/app.glade
+  /usr/share/gourmet/converter.glade
+  /usr/share/gourmet/databaseChooser.glade
+  /usr/share/gourmet/default.css
+  /usr/share/gourmet/FAQ
+  /usr/share/gourmet/generic_importer.glade
+  /usr/share/gourmet/gourmet_logo.png
+  /usr/share/gourmet/keyeditor.glade
+  /usr/share/gourmet/preferenceDialog.glade
+  /usr/share/gourmet/recbox.png
+  /usr/share/gourmet/recCard.glade
+  /usr/share/gourmet/recipe.dtd
+  /usr/share/gourmet/recSelector.glade
+  /usr/share/gourmet/rec_ref_window.glade
+  /usr/share/gourmet/shopList.glade
+  /usr/share/gourmet/splash.png
+  /usr/share/locale/bg/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/ca/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/cs/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/da/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/de_AT/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/de_DE/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/el/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/es/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/es_ES/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/fr/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/gl/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/he/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/hu/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/it/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/nb/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/nl/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/nl_BE/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/nl_NL/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/pl/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/pt/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/pt_PT/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/sk/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/sv/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/sv_SE/LC_MESSAGES/gourmet.mo
+  /usr/share/locale/tr/LC_MESSAGES/gourmet.mo
+  /usr/share/pixmaps/recbox.png
+
+--------------------
+
+Port Notes:
+
+----- version 0.8.5.13-1 -----
+Upstream version bump.
+
+----- version 0.8.5.12-1 -----
+Upstream version bump.
+
+----- version 0.8.5.9-1 -----
+Upstream version bump.
+
+----- version 0.8.3.2-1 -----
+Upstream version bump.
+
+----- version 0.8.2.1-1 -----
+New upstream version, built for python2.4.
+
+----- version 0.6.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

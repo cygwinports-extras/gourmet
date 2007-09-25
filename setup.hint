@@ -1,9 +1,8 @@
 category: Gnome
-requires: cygwin gnome-python2 metakit python pygtk2 pyorbit pyrtf PIL
-sdesc: "Recipe organizer and shopping list generator for GNOME"
-ldesc: "Gourmet Recipe Manager is a manager, editor, and organizer for
-recipes. It currently has primitive support for mealmaster
-importing. It can export and import an XML format of its own (the DTD
-is included here for your interest) which I developed for an earlier
-recipe program in emacs-lisp. It also allows you to export individual
-recipes as Mealmaster, HTML or Plain Text."
+requires: python python-gnome2 python-gnomeprint2 python-gobject python-gtk2 python-imaging python-orbit python-pyrtf python-reportlab
+sdesc: "GNOME recipe and nutrition manager"
+ldesc: "Gourmet allows you to collect, search and organize your recipes, 
+and to automatically generate shopping lists from your collection. The 
+latest version also allows you to calculate nutritional information for 
+your recipes using the USDA food database (or entering custom 
+information by hand)."

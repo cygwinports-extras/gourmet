@@ -1,0 +1,6 @@
+inherit distutils
+
+DESCRIPTION="GNOME recipe manager"
+HOMEPAGE="http://grecipe-manager.sourceforge.net/"
+SRC_URI="mirror://sourceforge/grecipe-manager/${P}.tar.gz"
+PATCH_URI="0.15.4-sqlalchemy06.patch"

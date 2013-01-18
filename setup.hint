@@ -1,8 +1,0 @@
-category: Gnome
-requires: python python-gobject2.0 python-gtk2.0 python-gtkspell python-pil python-poppler python-pyrtf python-reportlab python-sqlalchemy
-sdesc: "GNOME recipe and nutrition manager"
-ldesc: "Gourmet allows you to collect, search and organize your recipes, 
-and to automatically generate shopping lists from your collection. The 
-latest version also allows you to calculate nutritional information for 
-your recipes using the USDA food database (or entering custom 
-information by hand)."

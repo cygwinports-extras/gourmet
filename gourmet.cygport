@@ -1,0 +1,13 @@
+inherit distutils
+
+NAME="gourmet"
+VERSION=0.15.9
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME recipe and nutrition manager"
+DESCRIPTION="Gourmet allows you to collect, search and organize your recipes,
+and to automatically generate shopping lists from your collection. The latest
+version also allows you to calculate nutritional information for your recipes
+using the USDA food database (or entering custom information by hand)."
+HOMEPAGE="http://thinkle.github.com/gourmet/"
+SRC_URI="https://launchpad.net/gourmet/main/${VERSION}/+download/${P}.tar.gz"

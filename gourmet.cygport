@@ -1,7 +1,7 @@
-inherit distutils
+inherit python-distutils
 
 NAME="gourmet"
-VERSION=0.15.9
+VERSION=0.17.2
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME recipe and nutrition manager"
@@ -10,4 +10,14 @@ and to automatically generate shopping lists from your collection. The latest
 version also allows you to calculate nutritional information for your recipes
 using the USDA food database (or entering custom information by hand)."
 HOMEPAGE="http://thinkle.github.com/gourmet/"
-SRC_URI="https://launchpad.net/gourmet/main/${VERSION}/+download/${P}.tar.gz"
+SRC_URI="https://github.com/thinkle/gourmet/archive/${VERSION}/gourmet-${VERSION}.tar.gz"
+
+ARCH=noarch
+
+src_install() {
+	cd ${B}
+	python_distutils_install
+
+	dodir /usr/share/icons/hicolor
+	mv ${D}/usr/share/gourmet/icons/*/ ${D}/usr/share/icons/hicolor/
+}
